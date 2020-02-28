@@ -2,36 +2,64 @@
 <html lang="en-us">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!DOCTYPE html>
+<style>
+      .col-sm-6 {height:auto; color: black; text-align: center;}
+      .responsive {width: 100%; height: auto; margin: 0 auto;display: block; margin-left: auto; margin-right: auto;}
+      .containerfluid {margin-left: 5%; margin-right: 5%; width: 100%;}
+      .h2 {margin-left: auto;}
+      .list-group-item {width: 500px; height: auto;}
+</style>
+
 <body>
+    <!-- Nav Bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    </nav>  
+
     <h2>Contact Me</h2>
-    <p>
-Snow Monkey
-    </p>
 
-    <!-- Grid -->
-    <div class="containerfluid">
-<h2> Contact Me</h2>
- </div>
 
- <div class="row">
-    <div class="col-sm-6">
-    <img src="https://www.snowjapan.com/photograph-resources/muikabochi_2803.JPG" style="width:100%">
-
+<!-- Grid -->
+<!-- image -->
+<div class="containerfluid">
    
     <div class="row">
-    <div class="col-sm-6">    
-    <div class="row">
-    <div class="col-sm-3">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <div class="col-sm-6">
+        <img src="https://www.snowjapan.com/photograph-resources/muikabochi_2803.JPG" alt="Monkey smiling" class="responsive" div="col-sm-6">
+    </div>
+
+    <!-- contact info -->
+   
+   <form action="/action_page.php">
+
+        <div class="col-sm-6">  
+        <li class="list-group-item">
+            <label for="lname">Frist Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </li>
+
+    <li class="list-group-item">
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+    </li>
+
+    <li class="list-group-item">
+        <label for="lname">Subject</label>
+        <input type="text" id="lname" name="lastname" placeholder="Write Something.." >
+    </li>
       </form>
     </div>
   </div>
