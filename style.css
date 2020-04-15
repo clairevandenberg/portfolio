@@ -1,0 +1,147 @@
+body {
+    background-color: #e1f5fe;
+}
+.header {
+    background-color: #f5ceaf;
+}
+
+.nav-link {
+    color: #f5ceaf;
+}
+
+hr {
+    background-attachment: fixed;
+    background-color: #003366;
+}
+.responsive {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerfluid {
+    margin-top: 2%;
+    margin-left: 2%; 
+    margin-right: 2%; 
+    margin-bottom: 2%;
+}
+
+.container { 
+    position: relative;
+    font-family: Arial;
+}
+.text-block {
+    width: 95%; 
+    position: absolute; 
+    color: #003366; 
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.list-group-item {
+    width: 500px; 
+    height: auto;
+}
+
+
+.col-sm-4 {
+    height: 50%; 
+    width: auto;
+    margin: 8%;
+    padding-bottom: 9%;
+}
+
+nav {
+    max-width: 100%;
+}
+
+  
+.col-sm-12 {
+position: fixed;
+color: #003366;
+background-color: #f8e7d1;
+left: 0px;
+bottom: 0px;
+width: 100%;
+text-align: center;
+}
+
+.col-sm-2{
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h1 {
+    text-align: center;
+    margin-top:  3%;
+    color:#f5ceaf;
+    text-align: center;
+    font-size: 55px;
+
+
+}
+
+h2 {
+    text-align: left;
+    margin-right: 45%;
+    margin-top: 25%;
+    color:#f5ceaf;
+    font-size: 55px;
+    font-weight: bolder;
+
+}
+
+h3 {
+    text-align: center;
+    color: #003366 ;
+}
+
+h4 {
+    text-align: left;
+    margin-right: 45%;
+    color:#003366;
+}
+
+h5{
+    text-align: left;
+    margin-right: 45%;
+    margin-bottom: 25%;
+    color:#003366;
+    font-weight: lighter;
+
+}
+.btn-group {
+    /* padding-left: 77%; */
+    color:#003366;
+}
+
+
+a{    color:#003366;
+}
+
+.col-sm-5 {
+    margin-left:  4%;
+    margin-right:  4%;
+    margin-top: 0%;
+
+}
+
+p {
+    color:#003366;
+text-align: center;
+}
+
+h6{
+    margin-top: 8%;
+    color:#003366;
+    text-align: left;
+    font-size: 20px;
+    font: normal;
+}
