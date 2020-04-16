@@ -1,6 +1,20 @@
-# HomeworkTwo
+# Portfolio
 
-Created the following pages: index.html, portfolio.html and contact.html which all link together via nav bar
-Applied a navbar, a responsive layout & responsive images
+## Brief Description 
+Simple portfolio to showcase my work
 
-Test my code [here](https://clairevandeneberg.github.io/portfolio/)
+Test my code [here](https://clairevandeneberg.github.io/portfolio/me.html)
+
+
+## Screenshot
+![Image description](ScreenShot.png)
+
+## Technology 
+* HTML
+* CSS
+* Bootstrap
+* GitHub
+* Font Awesome
+
+## Author 
+Claire Vandenberg, 2020
