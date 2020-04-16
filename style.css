@@ -121,8 +121,7 @@ h1 {
 }
 
 h2 {
-    text-align: left;
-    margin-right: 45%;
+    text-align: center;
     margin-top: 25%;
     color:#C68585;
     font-size: 55px;
@@ -137,7 +136,7 @@ h3 {
 
 h4 {
     text-align: left;
-    margin-right: 45%;
+    margin-right: 40%;
     color:#C68585;
 }
 
@@ -173,3 +172,19 @@ a {
     color:#C68585;
 
 }
+
+.myproject {
+    font-size: 60px;
+    margin-top: 1%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.contact {
+    width:100%;
+}
+
+.fa fa-github {
+    font-size:24px  
+}
+
