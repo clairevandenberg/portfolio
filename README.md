@@ -7,7 +7,7 @@ Test my code [here](https://clairevandeneberg.github.io/portfolio/me.html)
 
 
 ## Screenshot
-![Image description](ScreenShot.png)
+![Image description](Screenshot.png)
 
 ## Technology 
 * HTML
