@@ -1,17 +1,43 @@
+.text{
+margin-right: 6%;
+}
+
+.imagesFour {
+    /* margin-top: 9%; */
+    width: 40%;
+    /* margin-left: 60%; */
+    margin-bottom: 10%;
+    margin-left: 60%;
+    
+}
+
+
+.bg-img { 
+    background-image: url("Background1.jpg"); 
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 body {
-    background-color: #e1f5fe;
+    background-color: #FBF5F0;
 }
 .header {
-    background-color: #f5ceaf;
+    background-color: #C68585;
 }
 
 .nav-link {
-    color: #f5ceaf;
+    color: #C68585;
+    float: left;
+    position: relative;
+    font-size: 100%;
 }
+ 
 
 hr {
     background-attachment: fixed;
-    background-color: #003366;
+    background-color: #C68585;
 }
 .responsive {
     width: 100%;
@@ -36,9 +62,9 @@ hr {
 .text-block {
     width: 95%; 
     position: absolute; 
-    color: #003366; 
+    color: #C68585; 
     text-align: center;
-    margin-top: 2%;
+    padding-right: 10%;
 }
 
 
@@ -51,8 +77,16 @@ hr {
 .col-sm-4 {
     height: 50%; 
     width: auto;
-    margin: 8%;
-    padding-bottom: 9%;
+   
+}
+
+.portfolio {
+padding-bottom: 9%;
+margin: 8%;
+margin-bottom: 25%;
+margin-left: 5%;
+margin-right: 5%;
+
 }
 
 nav {
@@ -62,8 +96,8 @@ nav {
   
 .col-sm-12 {
 position: fixed;
-color: #003366;
-background-color: #f8e7d1;
+color: #C68585;
+background-color: #C68585;
 left: 0px;
 bottom: 0px;
 width: 100%;
@@ -79,10 +113,8 @@ text-align: center;
 }
 
 h1 {
-    text-align: center;
-    margin-top:  3%;
-    color:#f5ceaf;
-    text-align: center;
+    text-align: left;
+    color:#C68585;
     font-size: 55px;
 
 
@@ -92,7 +124,7 @@ h2 {
     text-align: left;
     margin-right: 45%;
     margin-top: 25%;
-    color:#f5ceaf;
+    color:#C68585;
     font-size: 55px;
     font-weight: bolder;
 
@@ -100,48 +132,44 @@ h2 {
 
 h3 {
     text-align: center;
-    color: #003366 ;
+    color: #C68585 ;
 }
 
 h4 {
     text-align: left;
     margin-right: 45%;
-    color:#003366;
+    color:#C68585;
 }
 
 h5{
     text-align: left;
     margin-right: 45%;
     margin-bottom: 25%;
-    color:#003366;
+    color:#C68585;
     font-weight: lighter;
 
 }
 .btn-group {
     /* padding-left: 77%; */
-    color:#003366;
+    color:#C68585;
 }
 
-
-a{    color:#003366;
-}
-
-.col-sm-5 {
-    margin-left:  4%;
-    margin-right:  4%;
-    margin-top: 0%;
-
-}
-
+#footerText {
+    color: black;
+    }
 p {
-    color:#003366;
+    color:#924D4D;
 text-align: center;
 }
 
 h6{
-    margin-top: 8%;
-    color:#003366;
+    color:#C68585;
     text-align: left;
     font-size: 20px;
     font: normal;
+}
+
+a {
+    color:#C68585;
+
 }

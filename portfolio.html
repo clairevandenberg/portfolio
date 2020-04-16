@@ -10,45 +10,44 @@
 
 <body>
 
-    <!-- Nav Bar -->
-    <nav class = "navbar navbar-fixed-top navbar-expand-lg" >
-      <ul class="navbar-nav">
-      <li class="nav-item active">
-      <a class="nav-link" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  </nav> 
-<hr>
+    <div class="fluid-container">
+    <div class="navbar">
+  
+    <a class="nav-link" href="me.html">Claire Vandenberg</a>
+    <a class="nav-link" href="index.html">About</a>
+    <a class="nav-link" href="portfolio.html">Portfolio</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+    </div>
+    </div>
 
 
 <!-- Grid -->
 <h1>My Projects</h1>
 
-<aside>
 <div class="containerfluid">
-  <div class="row">
+<div class="row">
+  <div class="col-sm-6">
+  <div class="portfolio">
+  <img src="BoggleGame.png" alt="Boggle Game" class="responsive">
+  <div class="text-block">
+  <a href = "https://github.com/TeamCABBN/GiphyBoggle" class = "btn" role = "button" aria-disabled="true">
+    <h3>Boggle Game</h3>
+  </a>        
+  <p>As a user who is looking to waste time i want to be able to play a word game and get a gif that will entertain me so that i can still be happy and waste some time in a fun way while I’m social distancing</p>
+  <a href = "https://teamcabbn.github.io/GiphyBoggle/" class = "btn" role = "button" aria-disabled="true">
+  <p>Try it</p>
+</a> 
+</div>
+</div>
+</div>
 
-    <div class="col-sm-4">
-    <img src="BoggleGame.png" alt="Boggle Game" class="responsive">
-    <div class="text-block">
-    <a href = "https://github.com/TeamCABBN/GiphyBoggle" class = "btn" role = "button" aria-disabled="true">
-      <h3>Boggle Game</h3>
-    </a>        
-    <p>As a user who is looking to waste time i want to be able to play a word game and get a gif that will entertain me so that i can still be happy and waste some time in a fun way while I’m social distancing</p>
-    <a href = "https://teamcabbn.github.io/GiphyBoggle/" class = "btn" role = "button" aria-disabled="true">
-    <p>Try it</p>
-  </a> 
-  </div>
-  </div>
 
-    <div class="col-sm-4">
+
+
+
+  <div class="col-sm-6" >
+  <div class="portfolio">
     <img src="WeatherDashBoard.png" href = "" alt="Weather DashBoard" class="responsive"> 
     <div class="text-block">
     <a href = "https://github.com/clairevandeneberg/WeatherDashboardAPI" class = "btn" role = "button" aria-disabled="true">
@@ -60,9 +59,11 @@
     </a> 
   </div>
   </div>
+</div>
 
 
-    <div class="col-sm-4">
+<div class="col-sm-6" >
+  <div class="portfolio">
     <img src="Scheduler.png" alt="Work Day Scheduler" class="responsive">
     <div class="text-block">
     <a href = "https://github.com/clairevandeneberg/WorkDayScheduler" class = "btn" role = "button" aria-disabled="true">
@@ -73,10 +74,12 @@
       <p>Try it</p>
     </a> 
   </div>
+  </div>
 </div>
 
 
-    <div class="col-sm-4">
+<div class="col-sm-6" >
+  <div class="portfolio">
     <img src="Screen Shot 2020-04-15 at 8.40.15 am.png" alt="Code Quiz" class="responsive">
     <div class="text-block">
     <a href = "https://github.com/clairevandeneberg/H4CodeQuixz" class = "btn" role = "button" aria-disabled="true">
@@ -88,8 +91,9 @@
     </a> 
   </div>
   </div>
+</div>
   
-  </aside>
+</div>
 </body>
 
 <footer>
@@ -97,8 +101,8 @@
   <div class = "col-sm-12">
   <div class = "fluid-container">
 
-  <p>Made by Claire Vandenberg 2020</p>
-</div>
+    <p class = "footerText">Made by Claire Vandenberg 2020</p>
+  </div>
 </div>
 </div>
 </footer>
