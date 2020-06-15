@@ -11,6 +11,13 @@ margin-right: 6%;
     
 }
 
+h6{
+    color:#C68585;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10%;
+    font: normal;
+}
 
 .bg-img { 
     background-image: url("Background1.jpg"); 
@@ -161,13 +168,7 @@ p {
 text-align: center;
 }
 
-h6{
-    color:#C68585;
-    text-align: left;
-    font-size: 20px;
-    margin-bottom: 10%;
-    font: normal;
-}
+
 
 a {
     color:#C68585;
